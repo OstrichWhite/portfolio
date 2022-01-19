@@ -1,0 +1,4 @@
+
+#main.css.map file just useful for debugging by the browser devtool also it can be regenerated after compiling the scss files so that we do not want it in github repository
+
+dist/css/main.css.map

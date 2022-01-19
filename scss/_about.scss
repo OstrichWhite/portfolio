@@ -1,0 +1,79 @@
+.about {
+  padding-bottom: 2rem;
+
+  &__bio-image {
+    height: 100vh;
+    width: 100%;
+
+    background: 
+    linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.7)
+    ),
+    url('../img/project.jpg') center top;
+    background-size: cover;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      margin-bottom: 2rem;
+    }
+    img{
+      border-radius: 50%;
+      box-shadow: -1px 1px 20px 10px #272727;
+    }
+  }
+
+  &__bio {
+    width: 80%;
+    text-align: center;
+
+    .text-secondary {
+      padding-bottom: 1rem;
+    }
+  }
+
+  .jobs {
+    width: 60vw;
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+
+    &__job {
+      background: lighten($primary-color, 10%);
+      padding: 0.5rem;
+      border-bottom: 5px solid $secondary-color;
+
+      h2, h3 {
+        margin: 0.5rem 0;
+      }
+      h4 {
+        margin: 0.5rem 0;
+      }
+
+      li{
+          position: relative;
+          left: 20px;
+          margin-bottom: 0.1rem;
+      }
+    }
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    transform:
+      rotate(90deg)
+      translate(-3rem, -5rem);
+  }
+  
+}
