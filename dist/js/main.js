@@ -25,5 +25,3 @@ function toggleMenu() {
     showMenu = false;
   }
 }
-
-alert("It's under development. Some Functionality may not work properly");

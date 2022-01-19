@@ -535,6 +535,13 @@ main .social-icons a:hover {
   color: #ff652f;
 }
 
+.msg {
+  position: fixed;
+  top: 0.3rem;
+  left: 0.3rem;
+  width: 250px;
+}
+
 footer {
   font-size: 1rem;
   position: fixed;
